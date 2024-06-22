@@ -1,0 +1,23 @@
+body {
+  background-color: #555;
+}
+
+.odd {
+  background-color: rgb(235, 128, 128);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.cooler {
+  font-size: 24px;
+}
+
+#two {
+  font-size: 32px;
+  color: rgba(0, 0, 255, 0.6);
+  font-weight: bold;
+}
+
+#four {
+  background-color: rgb(0, 255, 128);
+  font-weight: bold;
+}
