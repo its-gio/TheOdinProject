@@ -30,9 +30,13 @@ ul {
   margin: 0;
 }
 
+header h1 {
+  font-size: 24px;
+}
+
 header nav {
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
 
 header nav a,
@@ -64,16 +68,29 @@ button {
   margin: 0 auto;
 }
 
-.call-to-action {
+.top-info {
   padding: 160px 0;
   display: flex;
-  gap: 100px;
+  gap: 25px;
 }
 
-.call-to-action h2 {
-  font-size: 75px;
+.top-info h2 {
+  font-size: 48px;
+  font-weight: bold;
 }
 
-.call-to-action p {
+.top-info--text-section {
+  flex: 1;
+}
+
+.top-info--image-container {
+  flex: 1.25;
+}
+
+.top-info--image-container img {
+  width: 100%;
+}
+
+.secondary-text {
   font-size: 26px;
 }
