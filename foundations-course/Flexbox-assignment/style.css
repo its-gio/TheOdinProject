@@ -82,6 +82,7 @@ button {
   font-size: 26px;
 }
 
+/* Hero Section */
 .top-info {
   padding: 160px 20px;
   display: flex;
@@ -129,4 +130,20 @@ button {
 .info-section--content-container img {
   width: 100%;
   border-radius: 10px;
+}
+
+/* Quote Section */
+.quote-section {
+  background-color: #e5e7eb;
+}
+
+.quote-section blockquote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-section .author {
+  align-self: end;
+  padding: 0;
 }
