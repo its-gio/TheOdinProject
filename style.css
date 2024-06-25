@@ -1,4 +1,10 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #bbb;
+  background-color: #555;
+  color: #bbb;
+}
+
+a {
+  text-decoration: none;
+  color: #bbb;
 }
