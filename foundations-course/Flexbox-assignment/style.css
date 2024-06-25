@@ -81,6 +81,7 @@ button {
 
 .secondary-text {
   font-size: 26px;
+  padding: 10px 0;
 }
 
 /* Hero Section */
@@ -115,6 +116,7 @@ button {
   font-size: 36px;
   color: #1f2937;
   text-align: center;
+  padding-bottom: 25px;
 }
 
 .info-section--content-container {
@@ -149,6 +151,7 @@ button {
 .quote-section .author {
   align-self: end;
   padding: 0;
+  font-size: 30px;
 }
 
 /* Call to action section */
@@ -168,4 +171,15 @@ button {
 
 .call-to-action-banner button {
   border: 2px #f9faf8 solid;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+footer .secondary-text {
+  font-size: 20px;
 }
