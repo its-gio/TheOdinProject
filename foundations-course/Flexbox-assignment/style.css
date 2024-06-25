@@ -16,7 +16,9 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3,
+p {
   margin: 0;
 }
 
@@ -39,8 +41,7 @@ header nav {
   gap: 25px;
 }
 
-header nav a,
-.call-to-action p {
+header nav a {
   color: #e5e7eb;
 }
 
@@ -135,15 +136,36 @@ button {
 /* Quote Section */
 .quote-section {
   background-color: #e5e7eb;
+  padding: 75px 20px;
 }
 
 .quote-section blockquote {
   font-size: 36px;
   font-style: italic;
   color: #1f2937;
+  margin: 0;
 }
 
 .quote-section .author {
   align-self: end;
   padding: 0;
+}
+
+/* Call to action section */
+.call-to-action-banner {
+  background-color: #3882f6;
+  width: 100%;
+  border-radius: 10px;
+  color: #f9faf8;
+  flex-direction: row;
+  padding: 40px 100px;
+  margin: 120px 0;
+}
+
+.call-to-action-banner h3 {
+  font-size: 36px;
+}
+
+.call-to-action-banner button {
+  border: 2px #f9faf8 solid;
 }
