@@ -64,12 +64,26 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 20px 20px;
   margin: 0 auto;
 }
 
+.smaller-container {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+
+.secondary-text {
+  font-size: 26px;
+}
+
 .top-info {
-  padding: 160px 0;
+  padding: 160px 20px;
   display: flex;
   gap: 25px;
 }
@@ -91,6 +105,28 @@ button {
   width: 100%;
 }
 
-.secondary-text {
-  font-size: 26px;
+/* Information Section */
+.info-section {
+}
+
+.info-section--header {
+  font-size: 36px;
+  color: #1f2937;
+  text-align: center;
+}
+
+.info-section--content-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  text-align: center;
+}
+
+.info-section--content-container__content {
+  flex: 1;
+}
+
+.info-section--content-container img {
+  width: 100%;
+  border-radius: 10px;
 }
