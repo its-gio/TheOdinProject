@@ -1,0 +1,33 @@
+{
+  "name": "theodinproject",
+  "version": "1.0.0",
+  "description": "This is a walkthrough of the Foundations Course of The Odin Project",
+  "main": "index.js",
+  "dependencies": {
+    "npm": "^10.8.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "generate": "plop"
+  },
+  "devDependencies": {
+    "case-anything": "^2.1.13",
+    "eslint": "^8.47.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "jest": "^29.6.4",
+    "jest-cli": "^29.6.4",
+    "plop": "^4.0.1"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "generators/"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "npm": ">=8.5.5",
+    "node": ">=18.0.0"
+  }
+}
