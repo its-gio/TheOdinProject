@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Rock Paper Scissorss</title>
+  </head>
+  <body>
+    <h1>Rock Paper Scissorss</h1>
+
+    <button onclick="userPlay('rock')">Rock</button>
+    <button onclick="userPlay('paper')">Paper</button>
+    <button onclick="userPlay('scissors')">Scissors</button>
+
+    <h2 id="score">Loading...</h2>
+
+    <!-- Add Dropdown of winning, losing, and tied combinations (and %) - Do in react -->
+    <!-- <div id="records" class="record">
+      <div class="record--headers">
+        <div>Your Choice</div>
+        <div>Computer Choice</div>
+        <div>Result</div>
+      </div>
+      <div class="record--result"></div>
+    </div> -->
+    <!-- Add % used for user and computer -->
+    <!-- Maybe Pie chart? -->
+
+    <button onclick="resetScore()">Reset Score</button>
+    <script src="./scrtips.js"></script>
+  </body>
+</html>
