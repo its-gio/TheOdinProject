@@ -7,6 +7,14 @@ body {
   color: #eee;
 }
 
+.customize-section {
+  padding: 10px 0;
+}
+
+#grid-size-input {
+  width: 120px;
+}
+
 #layout {
   display: flex;
   flex-wrap: wrap;
