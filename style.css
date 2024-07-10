@@ -4,6 +4,10 @@ body {
   color: #bbb;
 }
 
+li {
+  padding: 5px 0;
+}
+
 a {
   text-decoration: none;
   color: #bbb;
