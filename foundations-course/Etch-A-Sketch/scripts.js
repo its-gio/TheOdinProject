@@ -8,10 +8,11 @@ let gridSize = 16;
 for (let i = 0; i < gridSize * gridSize; i++) {
   const gridSquare = document.createElement("div");
   gridSquare.classList.add("gridSquare");
-  addEventListener("mousedown", colorSquare);
+  gridSquare.onmouseover = colorSquare;
   layout.appendChild(gridSquare);
 }
 
 function colorSquare(e) {
+  console.log("Works?");
   return e.target.classList.toggle("colored");
 }
