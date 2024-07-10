@@ -1,4 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #666;
   color: #eee;
+}
+
+#layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gridSquare {
+  border: 1px solid #eee;
+  flex: 1 1 6.25%;
+  height: 50px;
+}
+
+.gridSquare.colored {
+  background-color: orange;
 }
